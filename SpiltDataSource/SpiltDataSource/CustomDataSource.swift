@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 // KVO Observer
+// dataSource asked by View Layer.And it belongs to Controller Layer.
 class CustomDataSource:NSObject,UITableViewDataSource {
     var cellData:NSObject?
     var cellIdentifier:String?
