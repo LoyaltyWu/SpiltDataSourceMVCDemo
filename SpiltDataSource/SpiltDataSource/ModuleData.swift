@@ -8,16 +8,17 @@
 
 import Foundation
 
+// Module should be completely UI free
 class ModuleData:NSObject{
     public var x:Int
     public var y:Int
     override init(){
         x = 0
-        y = 3*x+1
+        y = 3*x+1 // small module processing
     }
     init(xx:Int){
         x = xx
-        y = 3*x+1
+        y = 3*x+1 // small module processing
     }
     init(xx:Int,yy:Int){
         x = xx
